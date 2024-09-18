@@ -32,3 +32,19 @@ console.log(typeof scoreValue)
 console.log(typeof myFunction)
 console.log(typeof heros);
 console.log(typeof myobj);
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+let myYoutubename="paras jain"
+let anothername=myYoutubename
+anothername="mothfath"
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne={
+   email:"paras@google.com",
+   upi:"user@ybl"
+}
+let userTwo=userOne
+userTwo.email="parasjain@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
